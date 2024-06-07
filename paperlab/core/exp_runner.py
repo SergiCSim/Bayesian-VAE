@@ -5,7 +5,7 @@ import logging
 from typing import Dict
 from paperlab.utils import isnotebook
 from paperlab.core.utils import MultiProcessManager
-from collections import Sequence
+from collections.abc import Sequence
 
 
 if isnotebook():
